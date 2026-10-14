@@ -1,0 +1,74 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:12787d1d-5cc2-59af-bfbf-76ae927c0542",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:04:59Z",
+    "component": {
+      "type": "application",
+      "name": "MAILPILE",
+      "version": "741e610f3e76",
+      "bom-ref": "pkg:generic/anticloud/MAILPILE@741e610f3e76",
+      "purl": "pkg:generic/anticloud/MAILPILE@741e610f3e76",
+      "licenses": [
+        {
+          "license": {
+            "id": "NOASSERTION"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "741e610f3e765f03bd0c452c92c6758280e7f99f"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/mailpile/Mailpile"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "grunt",
+      "version": "latest",
+      "purl": "pkg:npm/grunt@latest",
+      "bom-ref": "npm/grunt@latest"
+    },
+    {
+      "type": "library",
+      "name": "grunt-contrib-concat",
+      "version": "latest",
+      "purl": "pkg:npm/grunt-contrib-concat@latest",
+      "bom-ref": "npm/grunt-contrib-concat@latest"
+    },
+    {
+      "type": "library",
+      "name": "grunt-contrib-uglify",
+      "version": "latest",
+      "purl": "pkg:npm/grunt-contrib-uglify@latest",
+      "bom-ref": "npm/grunt-contrib-uglify@latest"
+    },
+    {
+      "type": "library",
+      "name": "grunt-contrib-less",
+      "version": "latest",
+      "purl": "pkg:npm/grunt-contrib-less@latest",
+      "bom-ref": "npm/grunt-contrib-less@latest"
+    },
+    {
+      "type": "library",
+      "name": "grunt-contrib-watch",
+      "version": "latest",
+      "purl": "pkg:npm/grunt-contrib-watch@latest",
+      "bom-ref": "npm/grunt-contrib-watch@latest"
+    }
+  ]
+}

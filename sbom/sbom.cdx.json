@@ -1,0 +1,550 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:e721d001-0000-0000-4000-dd271fab24f3",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-05T14:23:56Z",
+  "tools": [
+   {
+    "vendor": "anticloud",
+    "name": "bench15_from_tree",
+    "version": "1.0"
+   }
+  ],
+  "component": {
+   "type": "application",
+   "name": "MAILPILE",
+   "version": "741e610f3e76",
+   "licenses": [
+    {
+     "license": {
+      "id": "AGPL-3.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:sbom:method",
+    "value": "manifest scan of the real cloned working tree"
+   },
+   {
+    "name": "anticloud:licence_class",
+    "value": "B"
+   },
+   {
+    "name": "anticloud:upstream",
+    "value": "https://github.com/mailpile/Mailpile"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "grunt",
+   "group": "npm",
+   "version": "latest",
+   "purl": "pkg:npm/grunt",
+   "scope": "required",
+   "evidence": {
+    "manifest": "package.json"
+   }
+  },
+  {
+   "type": "library",
+   "name": "grunt-contrib-concat",
+   "group": "npm",
+   "version": "latest",
+   "purl": "pkg:npm/grunt-contrib-concat",
+   "scope": "required",
+   "evidence": {
+    "manifest": "package.json"
+   }
+  },
+  {
+   "type": "library",
+   "name": "grunt-contrib-uglify",
+   "group": "npm",
+   "version": "latest",
+   "purl": "pkg:npm/grunt-contrib-uglify",
+   "scope": "required",
+   "evidence": {
+    "manifest": "package.json"
+   }
+  },
+  {
+   "type": "library",
+   "name": "grunt-contrib-less",
+   "group": "npm",
+   "version": "latest",
+   "purl": "pkg:npm/grunt-contrib-less",
+   "scope": "required",
+   "evidence": {
+    "manifest": "package.json"
+   }
+  },
+  {
+   "type": "library",
+   "name": "grunt-contrib-watch",
+   "group": "npm",
+   "version": "latest",
+   "purl": "pkg:npm/grunt-contrib-watch",
+   "scope": "required",
+   "evidence": {
+    "manifest": "package.json"
+   }
+  },
+  {
+   "type": "library",
+   "name": "appdirs",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/appdirs",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "setuptools",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/setuptools",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "cryptography",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/cryptography",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "lxml",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/lxml",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "imgsize",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/imgsize",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "Jinja2",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/Jinja2",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "markupsafe",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/markupsafe",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "py3DNS",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/py3DNS",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "PySocks",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/PySocks",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "pgpdump",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/pgpdump",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "pillow",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/pillow",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "pbr",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/pbr",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "fasteners",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/fasteners",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "stem",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/stem",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "icalendar",
+   "group": "pypi",
+   "version": "",
+   "purl": "pkg:pypi/icalendar",
+   "scope": "required",
+   "evidence": {
+    "manifest": "requirements.txt"
+   }
+  },
+  {
+   "type": "library",
+   "name": "from",
+   "group": "pypi",
+   "version": "__future__ import print_function",
+   "purl": "pkg:pypi/from",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "import",
+   "group": "pypi",
+   "version": "datetime",
+   "purl": "pkg:pypi/import",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "here",
+   "group": "pypi",
+   "version": "= os.path.abspath(os.path.dirname(__file__))",
+   "purl": "pkg:pypi/here",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "def",
+   "group": "pypi",
+   "version": "_get_submodules(git_dir):",
+   "purl": "pkg:pypi/def",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "submodules",
+   "group": "pypi",
+   "version": "= pbr.git._run_git_command(['submodule', 'status'], git_dir)",
+   "purl": "pkg:pypi/submodules",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "for",
+   "group": "pypi",
+   "version": "s in submodules.split('\\n')",
+   "purl": "pkg:pypi/for",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "if",
+   "group": "pypi",
+   "version": "s != '']",
+   "purl": "pkg:pypi/if",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "return",
+   "group": "pypi",
+   "version": "submodules",
+   "purl": "pkg:pypi/return",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "We",
+   "group": "pypi",
+   "version": "don't actually use the entrypoints system for this because it runs",
+   "purl": "pkg:pypi/We",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "at",
+   "group": "pypi",
+   "version": "absurd times. We only want to do this when we are building an sdist.",
+   "purl": "pkg:pypi/at",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "file_list",
+   "group": "pypi",
+   "version": "= []",
+   "purl": "pkg:pypi/file_list",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "git_dir",
+   "group": "pypi",
+   "version": "= pbr.git._run_git_functions()",
+   "purl": "pkg:pypi/git_dir",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "pbr.git._find_git_files",
+   "group": "pypi",
+   "version": "= _find_git_files",
+   "purl": "pkg:pypi/pbr.git._find_git_files",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "try",
+   "group": "pypi",
+   "version": ":",
+   "purl": "pkg:pypi/try",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "assert",
+   "group": "pypi",
+   "version": "(0 == subprocess.call(['make', 'clean'], cwd=here))",
+   "purl": "pkg:pypi/assert",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "except",
+   "group": "pypi",
+   "version": ":",
+   "purl": "pkg:pypi/except",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "print",
+   "group": "pypi",
+   "version": "(\"Faild to run 'make clean'. Bailing out.\")",
+   "purl": "pkg:pypi/print",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "exit",
+   "group": "pypi",
+   "version": "(1)",
+   "purl": "pkg:pypi/exit",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "class",
+   "group": "pypi",
+   "version": "Builder(build_py):",
+   "purl": "pkg:pypi/class",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "else",
+   "group": "pypi",
+   "version": ":",
+   "purl": "pkg:pypi/else",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "build_py.run",
+   "group": "pypi",
+   "version": "(self)",
+   "purl": "pkg:pypi/build_py.run",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "setup",
+   "group": "pypi",
+   "version": "(",
+   "purl": "pkg:pypi/setup",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "setup_requires",
+   "group": "pypi",
+   "version": "=['pbr'],",
+   "purl": "pkg:pypi/setup_requires",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "version",
+   "group": "pypi",
+   "version": "=APPVER,",
+   "purl": "pkg:pypi/version",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  },
+  {
+   "type": "library",
+   "name": "cmdclass",
+   "group": "pypi",
+   "version": "={'build_py': Builder},",
+   "purl": "pkg:pypi/cmdclass",
+   "scope": "required",
+   "evidence": {
+    "manifest": "setup.py"
+   }
+  }
+ ],
+ "component_count": 45,
+ "languages_detected": {
+  "Python": 51955,
+  "JavaScript": 16899,
+  "Markdown": 877,
+  "Text": 654,
+  "Shell": 305,
+  "Make": 219,
+  "Dockerfile": 73,
+  "Ruby": 19
+ }
+}
